@@ -7,3 +7,7 @@
 ```bash
 https://<ユーザー名>.github.io/<リポジトリ名>
 ```
+
+## memo
+
+- [コマンドラインからVS Codeでファイルやフォルダを開く](https://qiita.com/1natsu172/items/b951aa33451dad36bd7c)
