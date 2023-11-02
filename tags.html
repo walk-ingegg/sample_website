@@ -4,14 +4,18 @@
   <head>
     <title>HTMLタグ一覧</title>
     <meta charset="utf-8" />
+
+    <style>
+
+    </style>
   </head>
 
   <body>
 
-    <div>
-      <a href="index.html">homeページ</a>
-      <a href="tags.html">HTMLタグ一覧</a>
-      <a href="mody_dick.html">読書案内『Mody Dick』</a>
+    <div style="text-align: right;">
+      <a href="index.html" style="margin: 0 0 0 10px; text-decoration: none; color: #00f;">homeページ</a>
+      <a href="tags.html" style="margin: 0 0 0 10px; text-decoration: none; color: #00f;">HTMLタグ一覧</a>
+      <a href="mody_dick.html" style="margin: 0 0 0 10px; text-decoration: none; color: #00f;">読書案内『Moby Dick』</a>
     </div>
 
     <h1>重要なHTMLタグ一覧</h1>
@@ -30,6 +34,42 @@
       以下のテーブルに含まれるHTMLタグは全体の一部に過ぎませんが、重要なHTMLについてはここで参照できます。
     </p>
 
+    <h2>ドキュメントタグ（document tags）</h2>
+
+    <table>
+      <tr>
+        <th>HTMLタグ</th>
+        <th>タグ名</th>
+        <th>目的</th>
+      </tr>
+      <tr>
+        <td><code>&lt;html&gt;</code></td>
+        <td>HTML文書（HTML document）</td>
+        <td>HTML文書全体を囲むためのタグ</td>
+      </tr>
+      <tr>
+        <td><code>&lt;head&gt;</code></td>
+        <td>ヘッド（head）</td>
+        <td>メタ情報、スタイル、スクリプトなど、本文以外の情報を配置する場所</td>
+      </tr>
+      <tr>
+        <td><code>&lt;body&gt;</code></td>
+        <td>ボディ（body）</td>
+        <td>ウェブページのコンテンツ全体を囲むためのタグ</td>
+      </tr>
+      <tr>
+        <td><code>&lt;title&gt;</code></td>
+        <td>タイトル（title）</td>
+        <td>ブラウザのタブやウィンドウのタイトルバーに表示される文書のタイトルを指定</td>
+      </tr>
+      <tr>
+        <td><code>&lt;meta&gt;</code></td>
+        <td>メタ情報（meta information）</td>
+        <td>文書の文字セット、ビューポートの設定、著者情報などのメタ情報を指定</td>
+      </tr>
+    </table>
+
+
     <h2>ブロック要素（block element）</h2>
 
     <table>
@@ -39,14 +79,14 @@
         <th>目的</th>
       </tr>
       <tr>
-        <td><code>h1</code>&ndash;<code>h6</code></td>
-        <td>見出し（heading）</td>
-        <td>この中に見出しを置く（レベル: 1&ndash;6）</td>
+        <td style="padding: 10px;"><code>h1</code>&ndash;<code>h6</code></td>
+        <td style="padding: 10px;">見出し（heading）</td>
+        <td style="padding: 10px;">この中に見出しを置く（レベル: 1&ndash;6）</td>
       </tr>
       <tr>
-        <td><code>p</code></td>
-        <td>段落（パラグラフ: paragraph）</td>
-        <td>この中に文章を入れる</td>
+        <td style="padding: 10px;"><code>p</code></td>
+        <td style="padding: 10px;">段落（パラグラフ: paragraph）</td>
+        <td style="padding: 10px;">この中に文章を入れる</td>
       </tr>
       <tr>
         <td><code>table</code></td>
@@ -92,6 +132,11 @@
         <td><code>li</code></td>
         <td>リストアイテム（list item）</td>
         <td><code>&lt;il&gt;</code>または<code>&lt;ul&gt;</code>内で項目を表示する</td>
+      </tr>
+      <tr>
+        <td><code>&lt;blockquote&gt;</code></td>
+        <td>長い引用（blockquote）</td>
+        <td>他のサイトやソースからの長い引用を表現する</td>
       </tr>
     </table>
 
